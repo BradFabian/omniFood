@@ -298,3 +298,10 @@ header {
 .city-feature {
   margin-bottom: 5px;
 }
+
+.section-testimonials {
+  background-image: url(img/back-customers.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
