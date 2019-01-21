@@ -23,10 +23,71 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-steps {
+    margin-bottom: 40px;
+  }
+
+  .works-steps:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .icon-sml {
+    width: 17px;
+    margin-right: 5px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
 }
 
 /*  Small iPhones to Small Tablets: from 481 to 767px */
 @media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150;
+  }
+
+  .works-steps {
+    margin-bottom: 20px;
+  }
+
+  .works-steps:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+  }
 }
 
 /* Small Phones: from 0 to 480px */
