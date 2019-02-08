@@ -39,6 +39,11 @@
             alt="OmniFood Logo"
             class="logo"
           />
+          <img
+            src="resources/img/logo.png"
+            alt="OmniFood Logo"
+            class="logo-black"
+          />
           <ul class="main-nav">
             <li><a href="#delivery">Food delivery</a></li>
             <li><a href="#how">How it works</a></li>
@@ -52,11 +57,11 @@
           Goodbye junk food.<br />
           Hello super healthy meals.
         </h1>
-        <a class="btn btn-full" href="#">I’m hungry </a>
-        <a class="btn btn-ghost" href="#">Show me more </a>
+        <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry </a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more </a>
       </div>
     </header>
-    <section class="section-features" id="delivery">
+    <section class="section-features js--section-features" id="delivery">
       <div class="row">
         <h2>Get food fast &mdash; not fast food</h2>
         <p class="long-copy">
@@ -303,7 +308,7 @@
         </div>
       </div>
     </section>
-    <section class="section-plans" id="sign">
+    <section class="section-plans js--section-plans" id="sign">
       <div class="row"><h2>Start eating healthy today</h2></div>
       <div class="row">
         <div class="col span-1-of-3">
@@ -466,7 +471,13 @@
         <p>Copyright &copy; 2018 by Omnifood. All rights reserved.</p>
       </div>
     </footer>
-    <script src="resources/js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./resources/js/script.js"></script>
   </body>
 </html>
 
